@@ -26,7 +26,6 @@ makeCacheMatrix <- function(x = matrix()) {
          getInverse = getInverse)
 }
 
-
 ## The following function calculates the mean of the list created by the  
 ## above function. However, it first checks to see if the inverse has already 
 ## been calculated/attempted. If so, it gets the inverse from the cache and 
